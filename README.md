@@ -96,6 +96,8 @@ dairoot/grok-gateway:latest
 
 ## 聊天 API 接口
 
+避免滥用限制每日200次
+
 POST: /v1/chat/completions
 
 - 请求头:
