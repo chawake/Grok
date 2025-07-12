@@ -15,8 +15,6 @@ services:
     image: dairoot/cf5s:latest
     depends_on:
       - gateway
-    env_file:      
-      - .env       
     environment:
       - GATEWAY_URL=http://gateway:8080
 
